@@ -1,0 +1,33 @@
+.has-fixed-sidenav {
+  padding-left: 300px;
+  padding-top: -65px;
+
+}
+
+.has-fixed-navbar {
+	padding-right: 300px;
+}
+
+.has-fixed-breadcrumb {
+	padding-left: 20px;
+}
+
+@media only screen and (max-width : 992px) {
+  .has-fixed-sidenav {
+    padding-left: 0;
+  }
+
+  .has-fixed-navbar {
+		padding-right: 0;
+		padding-top: -65px;
+	}
+}
+
+#DataTables_Table_0_wrapper .create {
+  margin: 15px;
+}
+
+.errorbox ul > li{
+  margin-left: 20px;
+  list-style: disc;
+}

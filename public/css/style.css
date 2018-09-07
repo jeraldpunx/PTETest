@@ -1,0 +1,67 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+
+}
+
+.question-pages {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.material-icons.md-16 { font-size: 16px; }
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+
+
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+body {
+   /*padding:10px;*/
+   padding-bottom:60px;   /* Height of the footer */
+}
+footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   /*background:#6cf;*/
+}
+
+
+.has-fixed-sidenav {
+    padding-left: 300px;
+  }
+
+    @media only screen and (max-width : 992px) {
+      .has-fixed-sidenav {
+        padding-left: 0;
+      }
+    }
